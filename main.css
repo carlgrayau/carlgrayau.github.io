@@ -11,9 +11,7 @@ body {
     border-left: 4px solid #0055E5; 
 }
 
-.nav-space {
-
-}
+/* nav area */
 
 nav {
     display: flex;
@@ -24,13 +22,14 @@ nav {
     padding-right: 10px;
 }
 
+/* container area */
+
 .container {
     display: flex;
     flex-direction: column;
 }
-.name {
+/* name and bio area */
 
-}
 .name-name {
     font-family: 'Wigrum_Black', sans-serif;
     font-size: 32px;
@@ -56,6 +55,8 @@ nav {
 .name-space {
     height: 90px;
 }
+
+/* quotation & work area */
 
 .quote {
     display: flex;
@@ -87,6 +88,49 @@ nav {
  height: 60px;
 }
 
+/* portfolio intro area & images */
+
 .portfolio {
-   
+    display: flex;
+    padding-top: 30px;
+    background-color: #F0F0F0;
+    justify-content: space-between;
+    flex-direction: column;
 }
+
+.firstfnf-img {
+    width: 100%;
+    height: auto;
+}
+
+.port-filler1-img {
+    width: 100%;
+    height: auto;
+}
+
+.port-filler2-img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-space {
+    height: 40px;
+}
+
+/* footer area */
+
+.footer-line {
+    align-self: center;
+    height: 1px;
+    width: 90%;
+    background-color: #949494;
+    margin: 10px;
+}
+
+.footer {
+    font-family: 'Wigrum_Regular', sans-serif;
+    font-size: 15px;
+    color:#949494;
+    text-align: center;
+}
+
