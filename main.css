@@ -7,20 +7,195 @@
     src:  url('Wigrum_Regular.otf') format('opentype');
   }
 
+
+/* testing burger bar 160 lines */
+body
+{
+  /* margin: 0;
+  padding: 0;
+   */
+  /* make it look decent enough */
+  /* background: #232323;
+  color: #cdcdcd; */
+  /* font-family: "Avenir Next", "Avenir", sans-serif; */
+  
+  overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+}
+
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: inline-block;
+  width: 4px;
+  height: 24px;
+  margin-left: 5px;
+  position: relative;
+  
+  
+  background: #0055E5;
+  /* border-radius: 3px; */
+  
+  z-index: 1;
+  
+  transform-origin: 0px 0px;
+  transform-origin: bottom;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+  
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(-30deg) translate(0px, 0px);
+  background: #232323;
+  
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 1;
+  transform: rotate(30deg) translate(-1px, -1px);
+  transform-origin: bottom;
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 0;
+  padding: 110px;
+  padding-bottom: 450px;
+  padding-top: 125px;
+  right: -100px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 18px;
+  font-family: 'Wigrum_Black', sans-serif;
+  color: #0055E5;
+  padding-bottom: 20px;
+}
+
+#cg-menu {
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+
+/*
+ * And let's fade it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: scale(1.0, 1.0);
+  opacity: 1;
+}
+
+/* START OF CODE AFTER NAV */
+
 body {
     border-left: 4px solid #0055E5; 
 }
 
 /* nav area */
 
-nav {
+/* nav {
     display: flex;
     justify-content: flex-end;
 }
 .menu {
     padding-top: 15px;
     padding-right: 10px;
-}
+} */
 
 /* container area */
 
@@ -35,6 +210,7 @@ nav {
     font-size: 32px;
     padding-left: 30px;
     padding-bottom: 15px;
+    padding-top: 50px;
 }
 
 .name-line {
@@ -101,11 +277,13 @@ nav {
 .firstfnf-img {
     width: 100%;
     height: auto;
+    padding-bottom: 10px;
 }
 
 .port-filler1-img {
     width: 100%;
     height: auto;
+    padding-bottom: 10px;
 }
 
 .port-filler2-img {
@@ -132,5 +310,6 @@ nav {
     font-size: 15px;
     color:#949494;
     text-align: center;
+    padding-bottom: 10px;
 }
 
