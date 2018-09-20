@@ -170,6 +170,9 @@ a:hover
     padding-bottom: 15px;
 }
 
+#menu img {
+    padding: 20px;
+}
 
 /*
  * And let's fade it in from the left
@@ -263,6 +266,10 @@ body {
     color:#949494;
 }
 
+.work img {
+    padding-left: 3px;
+}
+
 .quote-space {
  height: 60px;
 }
@@ -331,13 +338,15 @@ body {
 }
 
 @media only screen and (min-width: 650px) {
+
 body {
-    
-}    
+        border-left: 9px solid #0055E5; 
+    }   
 
 #menu {display: none;}
 a {display: none;}
 #menuToggle {display: none;}
+
 
 
 .container {
