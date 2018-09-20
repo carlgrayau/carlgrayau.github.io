@@ -1,3 +1,7 @@
+.name-name a {
+color: #000000;
+}
+
 .photo-bio {
     padding-left: 30px;
 }
@@ -31,7 +35,7 @@
     padding-left: 2px;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 720px) {
 
 
 .photo-bio {
@@ -83,6 +87,12 @@
 
 .portfolio-space {
     height: 200px;
+}
+
+.right-side-media div:nth-of-type(1) a {
+    background: #0055E5;
+    color: #ffffff;
+    padding: 5px;
 }
 
 }
