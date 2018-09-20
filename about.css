@@ -16,8 +16,8 @@
     display: flex;
 } */
 
-.footer-line {
-    /* width: 90%; */
+.about-footer {
+    margin-right: 15%;
 }
 .profile-photo img {
     width: 60%;

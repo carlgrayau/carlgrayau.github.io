@@ -25,15 +25,15 @@ body
 a
 {
   text-decoration: none;
-  color: #232323;
+  color: #0055E5;
   
   transition: color 0.3s ease;
 }
 
-a:hover
+/* a:hover
 {
   color: tomato;
-}
+} */
 
 #menuToggle
 {
@@ -344,7 +344,7 @@ body {
     }   
 
 #menu {display: none;}
-a {display: none;}
+/* a {display: none;} */
 #menuToggle {display: none;}
 
 
