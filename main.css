@@ -370,8 +370,8 @@ body {
     justify-content: flex-start;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    font-family: 'Wigrum_Regular', sans-serif;
-    font-weight: bold;
+    font-family: 'Wigrum_Black', sans-serif;
+    /* font-weight: bold; */
     font-size: 18px;
     color:#0055E5;
     line-height: 21px;
