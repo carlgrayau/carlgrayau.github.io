@@ -69,15 +69,26 @@
     </div>
     <div class="touch-form">
         <div>
-        <div class="touch-contact">Get in touch.</div>
+
+                <div class="container123">
+                       <div class="touch-contact">Get in touch.</div>
         <div class="touch-blurb">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem deserunt fugiat vero est, consectetur pariatur.</div>
-        <div class="name-button">Name</div>
-        <div class="touch-line"></div>
-        <div class="email-button">Email</div>
-        <div class="touch-line"></div>
-        <div class="message-button">Message</div>
-        <div class="box-line"></div>
-        <div class="submit-button"><a href="#">Submit</a></div>
+        
+                        <form action="#" name="contact_form">
+                            <label for="first_name"><div class="name-button">Name</div></label>
+                            <input name="first_name" type="text" required placeholder=""/>
+                            <div class="touch-line"></div>
+                            
+                            <label for="email"><div class="email-button">Email</div></label>
+                            <input name="email" type="email" required placeholder=""/>
+                            <div class="touch-line"></div>
+                            <label for="message"><div class="message-button">Message</div></label><br>
+                            <textarea name="message" rows="8" placeholder="" required> </textarea>
+                            <div class="center">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>	
+                    </div>
         </div>
     </div>
     <div class="aside-media">
