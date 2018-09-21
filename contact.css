@@ -1,0 +1,109 @@
+.name-name a {
+    color: #000000;
+    }
+
+.touch-line {
+    box-sizing: border-box;	
+    height: 3px;	
+    width: 95%;	
+    max-width: 481px;
+    border: 2px solid #949494;
+}
+
+.touch-form {
+        display: flex;
+        font-family: 'Wigrum_Regular', sans-serif;
+        color:#949494;
+        padding-top: 30px;
+        padding-left: 35px;
+        padding-right: 15px;
+        background-color: #F0F0F0;
+        justify-content: space-between;
+        flex-direction: column;
+}
+
+.touch-contact {
+    font-size: 34px;
+    line-height: 40px;
+    /* letter-spacing: 1px; */
+    font-weight: bold;
+    /* font-family: 'Wigrum_Black'; */
+}
+
+.touch-blurb {
+    font-size: 15px;
+    line-height: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 481px;
+}
+
+.name-button { padding-bottom: 5px;}
+
+.email-button { 
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.message-button { 
+    padding-top: 15px;
+    padding-bottom: 80px;
+}
+.box-line { 
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.submit-button { 
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.submit-button a {
+    background: #0055E5;
+    font-family: 'Wigrum_Regular', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 19px 43px;
+}
+
+    @media only screen and (min-width: 720px) {    
+
+.right-side-media div:nth-of-type(2) a {
+    background: #0055E5;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.blank-side {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.touch-form {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-left: 103px;
+}
+   
+.aside-media {
+    padding: 40px;
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+}
+
+.aside-media img {
+    padding: 15px;
+}
+
+.footer-contact {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    margin-right: 30%;
+}
+
+}

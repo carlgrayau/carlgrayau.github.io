@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="contact.css" />
+
+</head>
+<body>
+
+        <nav role='navigation'>
+                <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <!-- <span></span> -->
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu">
+                    <a href="#" id="cg-menu"><li>Carl Gray</li></a>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <li>
+                        <div class="media-buttons">
+                                <img src="images/svgs/facebook.svg">
+                                <img src="images/svgs/medium.svg">
+                                <img src="images/svgs/github.svg">
+                                <img src="images/svgs/linked in.svg">    
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+<!-- <nav>
+        <div class="menu"><img src ="images/svgs/menu.svg"> </div>
+    </nav> -->
+ <div class="container">  
+    <div class="name">
+        <div class="name-name"><a href="index.html">Carl Gray</a></div>
+        <div class="name-line"></div>
+        <div class="name-bio">Product Manager, Developer<br> Based in Sydney</div>
+        <div class="name-space"></div>
+    </div>
+    <div class="right-side-media">
+            <div><a href="about.html">About</a></div>
+            <div><a href="contact.html">Contact</a></div>
+    </div>
+    
+    <div class="blank-side">
+    </div>
+    <div class="touch-form">
+        <div>
+        <div class="touch-contact">Get in touch.</div>
+        <div class="touch-blurb">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem deserunt fugiat vero est, consectetur pariatur.</div>
+        <div class="name-button">Name</div>
+        <div class="touch-line"></div>
+        <div class="email-button">Email</div>
+        <div class="touch-line"></div>
+        <div class="message-button">Message</div>
+        <div class="box-line"></div>
+        <div class="submit-button"><a href="#">Submit</a></div>
+        </div>
+    </div>
+    <div class="aside-media">
+            <img src="images/svgs/facebook.svg">
+            <img src="images/svgs/medium.svg">
+            <img src="images/svgs/github.svg">
+            <img src="images/svgs/linked in.svg">
+    </div>
+
+    <div class="footer-contact">
+    <div class="portfolio-space"></div>
+        <div class="footer-line"></div>
+        <div class="footer">All rights reserved © Carl Gray, 2018</div>
+    </div>
+</div> 
+</body>
+</html>
