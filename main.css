@@ -434,6 +434,10 @@ body {
     font-size: 15px;
     color:#949494;
 }
+
+.work-media a {
+    color: #949494;
+}
 .work-media img {
     padding-top: 13px;
 }
