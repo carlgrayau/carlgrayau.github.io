@@ -7,7 +7,7 @@
 .firstfnf-profile-bio {
     padding-left: 30px; 
     padding-right: 16px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 .firstfnf-profile-bio2 {
@@ -26,9 +26,6 @@
     width: 100%;
 }
 
-.firstfnfimage2 {
-
-}
 
 .firstfnfimage2div {
     display:flex;
@@ -55,7 +52,7 @@
 
 .name-bio {
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .name-name {
@@ -67,6 +64,9 @@
 .nameCG {
     display: none;
 }
+.work {
+    display: none;
+}
 
 @media only screen and (min-width: 720px) {
     
@@ -75,6 +75,14 @@
         grid-template-columns: 10% 5% 70% 15%;
         grid-template-rows: auto;
          
+    }
+
+    .work {
+        display: block;
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        padding-right: 80px;
+        padding-top: 350px;
     }
 
     .nameCG {
@@ -190,3 +198,13 @@
 
 }
 
+@media (max-width:1100px) and (min-width:720px) {
+
+.firstfnfimage2 {
+        position: absolute;
+        left: 250px; 
+        top: 820px;
+        width: 12.5%;
+        min-width: 150px;
+    }
+}
