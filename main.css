@@ -394,6 +394,10 @@ body {
     padding-left: 30%;
 }
 
+.quotation {
+max-width: 500px;
+}
+
 .quote-space {
    display: none;
    }
