@@ -377,6 +377,7 @@ body {
     color:#0055E5;
     line-height: 21px;
     padding-top: 30px;
+    /* align-items: center; */
     
 }
 
@@ -402,7 +403,8 @@ body {
     grid-row: 3 / 4;
     display: flex;
     flex-direction: column;
-    padding-left: 60%;
+    padding-left: 45%;
+    align-items: center;
 }   
 
 .aside-media img {
