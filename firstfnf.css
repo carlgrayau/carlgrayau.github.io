@@ -85,6 +85,9 @@
         padding-top: 350px;
     }
 
+    .work img {
+        padding-top: 10px;
+    }
     .nameCG {
         display: flex;
         justify-content: flex-end;
