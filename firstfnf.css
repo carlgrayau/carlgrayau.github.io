@@ -245,3 +245,10 @@
             top: 1050px;
         }
     }
+
+@media (min-width:2200px) {
+
+        .firstfnfimage2 {
+                top: 1250px;
+            }
+        }
