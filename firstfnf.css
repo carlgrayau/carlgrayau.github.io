@@ -211,3 +211,37 @@
         min-width: 150px;
     }
 }
+
+@media (min-width:1400px) {
+
+    .firstfnfimage2 {
+            left: 320px; 
+            top: 880px;
+        }
+    }
+
+@media (min-width:1600px) {
+
+    .firstfnfimage2 {
+            /* left: 360px; 
+            top: 920px; */
+            left: 380px; 
+            top: 980px;
+        }
+    }
+
+@media (min-width:1800px) {
+
+    .firstfnfimage2 {
+            left: 380px; 
+            top: 980px;
+        }
+    }
+
+@media (min-width:2000px) {
+
+    .firstfnfimage2 {
+            left: 400px; 
+            top: 1050px;
+        }
+    }
