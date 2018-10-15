@@ -1,12 +1,4 @@
-@font-face {
-    font-family: 'Wigrum_Black';
-    src:  url('Wigrum_Black.otf') format('opentype');
-  }
-@font-face {
-    font-family: 'Wigrum_Regular';
-    src:  url('Wigrum_Regular.otf') format('opentype');
-  }
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900')
 
 /* testing burger bar 160 lines */
 body
@@ -160,7 +152,8 @@ a
 #menu li {
   padding: 10px 0;
   font-size: 18px;
-  font-family: 'Wigrum_Black', sans-serif;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
   color: #0055E5;
   padding-bottom: 20px;
 }
@@ -209,8 +202,9 @@ body {
 /* name and bio area */
 
 .name-name {
-    font-family: 'Wigrum_Black', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 32px;
+    font-weight: 900;
     padding-left: 30px;
     padding-bottom: 15px;
     padding-top: 50px;
@@ -225,7 +219,7 @@ body {
 }
 
 .name-bio {
-    font-family: 'Wigrum_Regular', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color:#949494;
     padding-left: 30px;
@@ -245,7 +239,7 @@ body {
 }
 
 .quotation {
-    font-family: 'Wigrum_Regular', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 32px;
     /* letter-spacing: 1px; */
     font-weight: bold;
@@ -261,7 +255,7 @@ body {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     align-self: flex-end;
-    font-family: 'Wigrum_Regular', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     color:#949494;
 }
@@ -317,7 +311,7 @@ body {
 }
 
 .footer {
-    font-family: 'Wigrum_Regular', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     color:#949494;
     text-align: center;
@@ -371,7 +365,8 @@ body {
     justify-content: flex-start;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    font-family: 'Wigrum_Black', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     /* font-weight: bold; */
     font-size: 18px;
     color:#0055E5;
@@ -438,7 +433,7 @@ max-width: 500px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
     align-self: flex-end;
-    font-family: 'Wigrum_Regular', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     color:#949494;
 }

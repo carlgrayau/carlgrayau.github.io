@@ -1,6 +1,6 @@
-/* Importing the Roboto font from Google Fonts. */
+/* Importing the Roboto font from Google Fonts. 
 @import url("https://fonts.googleapis.com/css?family=Roboto:400");
-
+*/
 /* Set font of all elements to 'Roboto' */
 /* * {
 	font-family: 'Roboto', sans-serif;
@@ -28,7 +28,7 @@ h3 {
     border-radius: 4px;
     width: 50%;
     min-width: 280px;
-    font-family: 'Wigrum_Regular', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:#949494;
 }
 
@@ -71,7 +71,7 @@ input[type=submit] {
 	outline: 0;
 	color: white;
     border: 0;
-    font-family: 'Wigrum_Regular', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding: 19px 43px;
 	border-radius: 0px;
@@ -118,7 +118,7 @@ input[type=submit]:hover {
 
 .touch-form {
         display: flex;
-        font-family: 'Wigrum_Regular', sans-serif;
+        font-family: 'Raleway', sans-serif;
         color:#949494;
         padding-top: 30px;
         padding-left: 35px;
@@ -175,7 +175,7 @@ input[type=submit]:hover {
 
 .submit-button a {
     background: #0055E5;
-    font-family: 'Wigrum_Regular', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: #ffffff;
     padding: 19px 43px;
