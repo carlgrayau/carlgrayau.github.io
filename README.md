@@ -1,8 +1,8 @@
 <h3>A link (URL) to your published portfolio website</h3>
-https://carlgrayau.github.io/portfolio/index.html
+https://carlgrayau.github.io/
 
 <h3>A link to your GitHub repository</h3>
-https://github.com/carlgrayau/portfolio
+https://github.com/carlgrayau/carlgrayau.github.io.git
 
 <h3>Description of your portfolio website, including</h3>
 <p><b>Purpose</b> - A website that covers my background and examples of previous work within a portfolio.</p>
